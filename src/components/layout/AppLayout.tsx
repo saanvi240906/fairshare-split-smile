@@ -34,9 +34,9 @@ export const AppLayout = ({ children }: AppLayoutProps) => {
         <div className="flex items-center justify-between px-4 h-16">
           <Link to="/dashboard" className="flex items-center gap-2">
             <div className="w-8 h-8 gradient-primary rounded-xl flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">F</span>
+              <span className="text-primary-foreground font-bold text-sm">P</span>
             </div>
-            <span className="font-display font-bold text-xl text-foreground">FairShare</span>
+            <span className="font-display font-bold text-xl text-foreground">PennyPilot</span>
           </Link>
           <Button
             variant="ghost"
@@ -87,9 +87,9 @@ export const AppLayout = ({ children }: AppLayoutProps) => {
         <div className="p-6">
           <Link to="/dashboard" className="flex items-center gap-3">
             <div className="w-10 h-10 gradient-primary rounded-xl flex items-center justify-center shadow-colored">
-              <span className="text-primary-foreground font-bold text-lg">F</span>
+              <span className="text-primary-foreground font-bold text-lg">P</span>
             </div>
-            <span className="font-display font-bold text-2xl text-foreground">FairShare</span>
+            <span className="font-display font-bold text-2xl text-foreground">PennyPilot</span>
           </Link>
         </div>
 

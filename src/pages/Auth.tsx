@@ -33,7 +33,7 @@ const Auth = () => {
       title: isLogin ? "Welcome back! 👋" : "Account created! 🎉",
       description: isLogin 
         ? "You've successfully logged in." 
-        : "Welcome to FairShare! Let's start splitting.",
+        : "Welcome to PennyPilot! Let's start splitting.",
     });
 
     setIsLoading(false);
@@ -59,7 +59,7 @@ const Auth = () => {
         <Card variant="default" className="animate-fade-in">
           <CardHeader className="text-center pb-2">
             <div className="w-14 h-14 gradient-primary rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-colored">
-              <span className="text-primary-foreground font-bold text-2xl">F</span>
+              <span className="text-primary-foreground font-bold text-2xl">P</span>
             </div>
             <CardTitle className="text-2xl">
               {isLogin ? "Welcome back!" : "Create your account"}
@@ -67,7 +67,7 @@ const Auth = () => {
             <CardDescription>
               {isLogin 
                 ? "Enter your credentials to access your account" 
-                : "Join FairShare and start splitting expenses"}
+                : "Join PennyPilot and start splitting expenses"}
             </CardDescription>
           </CardHeader>
           <CardContent className="pt-6">

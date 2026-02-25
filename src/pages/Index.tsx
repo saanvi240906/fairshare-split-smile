@@ -11,9 +11,9 @@ const Index = () => {
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
             <div className="w-9 h-9 gradient-primary rounded-xl flex items-center justify-center shadow-colored">
-              <span className="text-primary-foreground font-bold">F</span>
+              <span className="text-primary-foreground font-bold">P</span>
             </div>
-            <span className="font-display font-bold text-xl text-foreground">FairShare</span>
+            <span className="font-display font-bold text-xl text-foreground">PennyPilot</span>
           </Link>
           <div className="flex items-center gap-3">
             <Link to="/auth?mode=login">
@@ -40,7 +40,7 @@ const Index = () => {
                 <span className="text-gradient-primary">Stay friends.</span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg">
-                FairShare makes it simple to split bills with friends, track who owes what, 
+                PennyPilot makes it simple to split bills with friends, track who owes what, 
                 and settle up without awkward conversations. Because money shouldn't ruin friendships.
               </p>
               <div className="flex flex-wrap gap-4">
@@ -74,7 +74,7 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
-              How FairShare Works
+              How PennyPilot Works
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
               Three simple steps to stress-free expense sharing
@@ -159,12 +159,12 @@ const Index = () => {
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 gradient-primary rounded-xl flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">F</span>
+              <span className="text-primary-foreground font-bold text-sm">P</span>
             </div>
-            <span className="font-display font-bold text-lg text-foreground">FairShare</span>
+            <span className="font-display font-bold text-lg text-foreground">PennyPilot</span>
           </div>
           <p className="text-muted-foreground text-sm">
-            © 2024 FairShare. Made with ❤️ for friends everywhere.
+            © 2024 PennyPilot. Made with ❤️ for friends everywhere.
           </p>
         </div>
       </footer>
